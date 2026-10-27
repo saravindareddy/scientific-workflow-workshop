@@ -10,7 +10,7 @@
 - Do not install dependencies or use additional tools or external services without explicit human approval under organization rules.
 - Keep changes focused on the issue and avoid unrelated refactoring.
 - Preserve `USUBJID`, `AETERM`, and `AESEV` as the output columns and preserve their order.
-- Treat `reference/controlled-terminology.md` as authoritative for this exercise.
+- Treat `reference/controlled-terminology.md` as authoritative for this eclxercise.
 - Update requirements, analysis implementations, expected output, and tests together when behavior changes.
 - During pull request review, compare requirement identifiers in file headers and docstrings with the current requirement and report any mismatch.
 - Run `python scripts/validate.py` with Python 3.10+ (`python3` or `py -3` where appropriate). Report actual results; the tests execute Python only, not SAS or R.
