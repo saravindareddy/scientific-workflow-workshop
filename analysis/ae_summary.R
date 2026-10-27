@@ -1,10 +1,6 @@
 # Synthetic implementation of requirement AE-3.
 
-adae <- read.csv(
-  "data/synthetic_adae.csv",
-  stringsAsFactors = FALSE,
-  colClasses = "character"
-)
+adae <- read.csv("data/synthetic_adae.csv", stringsAsFactors = FALSE)
 
 ae_summary <- adae[
   adae$AESEV == "SEVERE",
